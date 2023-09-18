@@ -2,38 +2,56 @@
 <html> 
     <head>
         <title>MDN Clone</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <section> 
-            Getreal-time asssistance with your coding.Try Al Hlep now!
+        <section class="alert"> 
+           <p> Get real-time asssistance with your coding queries.Try
+            <a href="#">Al Help</a> now!
+         </p>
          </section>
             
         <header>
-            <section>
-             <nav>
-                 <ul>
-                        <li><a href="#">mdn web docs</a></li>
-                        <li><a href="#">References</a></li>
-                        <LI><a href="#">Guides</a></LI>
-                        <LI><a href="#">Plus</a></LI>
-                        <LI><a href="#">Blog</a></LI>
-                        <LI><a href="#">Play</a></LI>
-                        <LI><a href="#">Al Help</a></LI>
-                 </ul>
-             </nav>  
-              <section>
-                <div>Theme</div>
-                <div>login</div>
-                <button>Sign up for free</button>
-              </section>
+            <section class="top-nav d-flex j-c-sp-b">
+                <nav>
+                    <ul class="d-flex li-st-none">
+                        <li class="top-nav-li">
+                            <a class="top-nav-title" href="#">References</a>
+                        </li>
+                        <li class="top-nav-li">
+                            <a class="top-nav-title"href="#">Guides</a>
+                        </li>
+                        <li class="top-nav-li">
+                            <a class="top-nav-title" href="#">Plus</a>
+                        </li>
+                        <li class="top-nav-li">
+                            <a class="top-nav-title" href="#">Blog</a>
+                        </li>
+                        <li class="top-nav-li">
+                            <a  class="top-nav-title"href="#">Play</a>
+                        </li>
+                        <li class="top-nav-li">
+                            <a class="top-nav-title" href="#">Al Help</a>
+                        </li>
+                    </ul>
+                </nav>  
+                <section class="d-flex al-it-center">
+                    <a href="#" class="theme">Theme</a>
+                    <a href="#" class="btn-log-in">Log in</a>
+                    <button class="btn-sign-up">Sign up for free</button>
+                </section>
             </section>
             
-         <section>
+         <section class="breadcrumbs-container d-flex j-c-sp-b">
                 <nav>
-                    <ul>
-                        <li><a href="#">Guides</a></li>
-                        <li><a href="#">CSS</a></li>
+                    <ul class="breadcrumbs d-flex li-st-none">
+                        <li class="breadcrumbs-item">
+                            <a href="#" class="breadcrumbs-item-title">Guides</a>
+                        </li>
+                        <li class="breadcrumbs-item">
+                            <a href="#" class="breadcrumbs-item-title">CSS</a>
+                        </li>
                     </ul>
                  </nav>
                  <select name="language" id="languaage">
@@ -45,10 +63,10 @@
             </section>
         </header>
 
-            <main>
+            <main class="d-flex">
                 <section>
                     <nav>
-                        <ul>
+                        <ul class="li-st-none">
                             <li><a href="#">Complete beginners start here!</a></li>
                             <li><a href="#">HTML- Structing the web</a></li>
                             <li><a href="#">CSS- Styling the web</a></li>
@@ -56,17 +74,17 @@
                             <li><a href="#">Web forms- Working with user data</a></li>
                         </ul>
                     </nav>
-
                 </section>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis deserunt voluptatem laboriosam, perferendis temporibus quaerat nihil, esse mollitia repellendus alias et voluptatum nostrum distinctio fugiat id, aliquam dignissimos? Quasi, exercitationem.</p>
+
                 <section>
-
-
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis deserunt voluptatem laboriosam, perferendis temporibus quaerat nihil, esse mollitia repellendus alias et voluptatum nostrum distinctio fugiat id, aliquam dignissimos? Quasi, exercitationem.
+                    </p>
                 </section>
 
                 <section>
                     <nav>
-                        <ul>
+                        <ul class="li-st-none">
                             <li><a href="#">Prerequisites</a></li>
                             <li><a href="#">Modules</a></li>
                             <li><a href="#">Solving common CSS problems</a></li>
