@@ -7,8 +7,16 @@ body {
     text-align: center;
 }
 
+.alert-text {
+    color: blue;
+}
+
 a {
     text-decoration: none;
+}
+
+ul {
+    padding-left: 16px;
 }
 
 .d-flex {
@@ -25,6 +33,7 @@ a {
 
 .li-st-none {
    list-style-type: none;
+
 }
 
 .top-nav {
@@ -48,6 +57,10 @@ a {
 
 }
 
+.right-top-nav {
+    margin-right: 16px;
+}
+
 .theme {
     color: black;
 }
@@ -63,6 +76,10 @@ a {
     background-color: black;
 }
 
+.right-breadcrumbs-nav {
+    margin-right: 16px;
+}
+
 .breadcrumbs-container {
     border-bottom: 1px solid gray;
 }
@@ -73,6 +90,7 @@ a {
 
 .breadcrumbs-item {
     padding: 0px 8px;
+    margin-left: 8px;
 }
 
 .breadcrumbs-item-title {
@@ -81,6 +99,69 @@ a {
 
 .breadcrumbs-item-title:hover {
     text-decoration: underline;
+}
+
+.left-nav-list {
+   padding: 16px;
+}
+
+.left-nav-title {
+    color: black;
+}
+
+.left-nav-container {
+    width: 350px;
+}
+
+.main {
+    padding: 16px;
+}
+
+
+.css {
+    color: blue;
+
+}
+
+.main-content-text {
+    text-decoration: underline;
+}
+
+.html {
+    color: blue;
+}
+
+
+.right-nav-list {
+    padding: 16px;
+}
+
+
+.right-nav-title {
+    color: black;
+}
+
+.right-nav-title:hover {
+    color: blue;
+}
+
+.right-nav-container {
+    width: 300px;
+    border-left: 2px solid gray;
+    
+
+}
+
+.footer-container {
+    border-top: 1px solid gray;
+    padding: 8px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: BLACK;
+
 }
 
 
