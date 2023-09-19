@@ -1,137 +1,174 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <title>MDN Clone</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="https://developer.mozilla.org/favicon-48x48.cbbd161b.png">
-    </head>
+<html>
 
-    <body>
-        <section class="alert"> 
-           <p> Get real-time asssistance with your coding queries.Try
-            <a href="#" class="alert-text">Al Help</a> now!
-         </p>
-         </section>
-            
-        <header>
-            <section class="top-nav d-flex j-c-sp-b">
-                <nav>
-                    <ul class="d-flex li-st-none">
-                        <li class="top-nav-li">
-                            <a class="top-nav-title" href="#">References</a>
-                        </li>
-                        <li class="top-nav-li">
-                            <a class="top-nav-title"href="#">Guides</a>
-                        </li>
-                        <li class="top-nav-li">
-                            <a class="top-nav-title" href="#">Plus</a>
-                        </li>
-                        <li class="top-nav-li">
-                            <a class="top-nav-title" href="#">Blog</a>
-                        </li>
-                        <li class="top-nav-li">
-                            <a  class="top-nav-title"href="#">Play</a>
-                        </li>
-                        <li class="top-nav-li">
-                            <a class="top-nav-title" href="#">Al Help</a>
-                        </li>
-                    </ul>
-                </nav>  
-                <section class="d-flex al-it-center right-top-nav">
-                    <a href="#" class="theme">Theme</a>
-                    <a href="#" class="btn-log-in">Log in</a>
-                    <button class="btn-sign-up">Sign up for free</button>
-                </section>
+<head>
+    <title>MDN Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://developer.mozilla.org/favicon-48x48.cbbd161b.png">
+</head>
+
+<body>
+    <section class="alert">
+        <p> Get real-time asssistance with your coding queries.Try
+            <a href="#" class="alert-link">Al Help</a> now!
+        </p>
+    </section>
+
+    <header>
+        <section class="top-nav d-flex j-c-sp-b">
+            <nav>
+                <ul class="d-flex li-st-none">
+                    <li class="p-8">
+                        <a class="top-nav-title" href="#">References</a>
+                    </li>
+                    <li class="p-8">
+                        <a class="top-nav-title" href="#">Guides</a>
+                    </li>
+                    <li class="p-8">
+                        <a class="top-nav-title" href="#">Plus</a>
+                    </li>
+                    <li class="p-8">
+                        <a class="top-nav-title" href="#">Blog</a>
+                    </li>
+                    <li class="p-8">
+                        <a class="top-nav-title" href="#">Play</a>
+                    </li>
+                    <li class="p-8">
+                        <a class="top-nav-title" href="#">Al Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="d-flex al-it-center right-top-nav">
+                <a href="#" class="theme">Theme</a>
+                <a href="#" class="btn-log-in">Log in</a>
+                <button class="btn-sign-up">Sign up for free</button>
             </section>
-            
-         <section class="breadcrumbs-container d-flex j-c-sp-b">
-                <nav>
-                    <ul class="breadcrumbs d-flex li-st-none">
-                        <li class="breadcrumbs-item">
-                            <a href="#" class="breadcrumbs-item-title">Guides</a>
-                        </li>
-                        <li class="breadcrumbs-item">
-                            <a href="#" class="breadcrumbs-item-title">CSS</a>
-                        </li>
-                    </ul>
-                 </nav>
-                 <select name="language" id="languaage" class="right-breadcrumbs-nav">
-                    <option value="english">English(US)</option>
-                    <option value="bangla">Bangla</option>
-                    <option value="french">French</option>
-                    <option value="arabic">Arabic</option>
-                 </select>
-            </section>
-        </header>
+        </section>
 
-            <main class="d-flex">
-                <section>
-                    <nav  class="left-nav-container">
-                        <ul class="li-st-none">
-                            <li class="left-nav-list">
-                                <a href="#" class="left-nav-title">Complete beginners start here!</a>
-                            </li>
-                            <li class="left-nav-list">
-                                <a href="#" class="left-nav-title">HTML- Structuring the web</a>
-                            </li>
-                            <li class="left-nav-list">
-                                <a href="#" class="left-nav-title">CSS- Styling the web</a>
-                            </li>
-                            <li class="left-nav-list">
-                                <a href="#" class="left-nav-title">JavaScript- Dynamic client-side scripting</a>
-                            </li>
-                            <li class="left-nav-list">
-                                <a href="#" class="left-nav-title">Web forms- Working with user data</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </section>
+        <section class="breadcrumbs-container d-flex j-c-sp-b">
+            <nav>
+                <ul class="breadcrumbs d-flex li-st-none">
+                    <li class="breadcrumbs-item">
+                        <a href="#" class="breadcrumbs-item-title">Guides</a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a href="#" class="breadcrumbs-item-title">CSS</a>
+                    </li>
+                </ul>
+            </nav>
+            <select name="language" id="languaage" class="right-breadcrumbs-nav">
+                <option value="english">English(US)</option>
+                <option value="bangla">Bangla</option>
+                <option value="french">French</option>
+                <option value="arabic">Arabic</option>
+            </select>
+        </section>
+    </header>
 
-                <section class="main">
-                    <h1> Learn to style HTML using CSS</h1>
-                    <p>
-                        Cascading Style Sheets — or <a href="#" class="css main-content-text"> CSS</a> — is the first technology you should start learning after <a href="#" class="html main-content-text">HTML</a>. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
-                        
-                         <div>You should learn the basics of HTML before attempting any CSS. We recommend that you work through our <a href="#" class="html main-content-text">Introduction to HTML</a> module first.</div>
-                        
-                         Once you understand the fundamentals of HTML, we recommend that you learn further HTML and CSS at the same time, moving back and forth between the two topics. This is because HTML is far more interesting and much more fun to learn when you apply CSS, and you can't learn CSS without knowing HTML.
-                        
-                         <div>Before starting this topic, you should also be familiar with using computers and using the web passively (i.e., just looking at it, consuming the content). You should have a basic work environment set up, as detailed in Installing basic software, and understand how to create and manage files, as detailed in Dealing with files — both of which are parts of our Getting started with the web complete beginner's module.</div>
-                    </p>
-                </section>
+    <main class="d-flex">
+        <section>
+            <nav class="left-nav-container">
+                <ul class="li-st-none">
+                    <li class="left-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="left-nav-title">Complete beginners start here!</a>
+                    </li>
+                    <li class="left-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="left-nav-title">HTML- Structuring the web</a>
+                    </li>
+                    <li class="left-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="left-nav-title">CSS- Styling the web</a>
+                    </li>
+                    <li class="left-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="left-nav-title">JavaScript- Dynamic client-side scripting</a>
+                    </li>
+                    <li class="left-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="left-nav-title">Web forms- Working with user data</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
 
-                <section>
-                    <nav class="right-nav-container">
-                        <ul class="li-st-none">
-                            <li class="right-nav-list">
-                                <a href="#" class="right-nav-title">Prerequisites</a>
-                            </li>
-                            <li class="right-nav-list">
-                                <a href="#" class="right-nav-title">Modules</a>
-                            </li>
-                            <li class="right-nav-list">
-                                <a href="#" class="right-nav-title">Solving common CSS problems</a>
-                            </li>
-                            <li class="right-nav-list">
-                                <a href="#" class="right-nav-title">"CSS is weird"</a>
-                            </li>
-                        </ul>
-                    </nav>
+        <section class="h-p-16">
+            <h1> Learn to style HTML using CSS</h1>
 
-                </section>
-            </main>
+            <p>
+                Cascading Style Sheets — or
+                <a href="#" class="main-content-text-link"> CSS</a>
+                — is the first technology you should start learning after
+                <a href="#" class="main-content-text-link">HTML</a>
+                . While HTML is used to define the structure and semantics of your content, CSS is used to style it and
+                lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content,
+                split it into multiple columns, or add animations and other decorative features.
+            </p>
 
-         <footer class="footer-container"> 
-            Cookies
-            Legal
-            Website Privacy Notic
-            Community Participation Guidelines
-            Visit Mozilla Corporation not-for-profit parent, the Mozilla Foundation.
-            Portions of this content are ©19982023 by individual mozilla.org contributors. Content available under a Creative Commons license.
-         </footer>
+            <p>
+                You should learn the basics of HTML before attempting any CSS. We recommend that you work through our
+                <a href="#" class="main-content-text-link">
+                    Introduction to HTML
+                </a>
+                module first.
+            </p>
 
-        </body>
+            <p>
+                Once you understand the fundamentals of HTML, we recommend that you learn further HTML and CSS at the
+                same time, moving back and forth between the two topics. This is because HTML is far more interesting
+                and much more fun to learn when you apply CSS, and you can't learn CSS without knowing HTML.
+            </p>
 
-    
+            <p>
+                Before starting this topic, you should also be familiar with using computers and using the web passively
+                (i.e., just looking at it, consuming the content). You should have a basic work environment set up, as
+                detailed in Installing basic software, and understand how to create and manage files, as detailed in
+                Dealing with files — both of which are parts of our Getting started with the web complete beginner's
+                module.
+            </p>
+
+            <p>
+                After CSS 2.1, the scope of the specification increased significantly and the progress on different CSS
+                modules started to differ so much, that it became more effective to develop and release recommendations
+                separately per module. Instead of versioning the CSS specification, W3C now periodically takes a
+                snapshot of the latest stable state of the CSS specification and individual modules progress. CSS
+                modules now have version numbers, or levels, such as CSS Color Module Level 5
+            </p>
+
+            <p>
+                After CSS 2.1, the scope of the specification increased significantly and the progress on different CSS
+                modules started to differ so much, that it became more effective to develop and release recommendations
+                separately per module. Instead of versioning the CSS specification, W3C now periodically takes a
+                snapshot of the latest stable state of the CSS specification and individual modules progress. CSS
+                modules now have version numbers, or levels, such as CSS Color Module Level 5
+            </p>
+        </section>
+
+        <section>
+            <nav class="right-nav-container">
+                <ul class="li-st-none">
+                    <li class="right-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="right-nav-title">Prerequisites</a>
+                    </li>
+                    <li class="right-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="right-nav-title">Modules</a>
+                    </li>
+                    <li class="right-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="right-nav-title">
+                            Solving common CSS problems
+                        </a>
+                    </li>
+                    <li class="right-nav-list v-p-8 ln-ht-24">
+                        <a href="#" class="right-nav-title">"CSS is weird"</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        Cookies Legal Website Privacy Notic Community Participation Guidelines Visit Mozilla Corporation not-for-profit parent, the Mozilla Foundation. Portions of this content are ©19982023 by individual mozilla.org contributors. Content available under a Creative Commons license.
+    </footer>
+
+</body>
+
+
 
 </html>
